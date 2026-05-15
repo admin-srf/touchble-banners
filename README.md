@@ -33,11 +33,13 @@ Edit `links.json` to map each image name to a destination URL:
 ## Deploy
 
 ```bash
+chmod +x run-deploy.sh
 ./run-deploy.sh <port>
 ```
 
 Example:
 ```bash
+chmod +x run-deploy.sh
 ./run-deploy.sh 8081
 ```
 
